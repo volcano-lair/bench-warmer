@@ -1,0 +1,29 @@
+{
+  "name": "bench-warmer",
+  "version": "0.0.1",
+  "description": "Test benches for various network interfaces",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "lint": "eslint bin/* lib/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/volcano-lair/bench-warmer.git"
+  },
+  "author": "John Manero <john.manero@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^3.11.1",
+    "eslint-config-rapid7": "^2.6.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-react": "^6.7.1"
+  },
+  "engines": {
+    "node": ">=6.9"
+  },
+  "bugs": {
+    "url": "https://github.com/volcano-lair/bench-warmer/issues"
+  },
+  "homepage": "https://github.com/volcano-lair/bench-warmer#readme"
+}
