@@ -1,8 +1,8 @@
 {
   "name": "bench-warmer",
   "version": "0.0.1",
-  "description": "Test benches for various network interfaces",
-  "main": "index.js",
+  "description": "A nearly-complete test bench for the NodeJS HTTP interface",
+  "main": "lib",
   "scripts": {
     "test": "mocha",
     "lint": "eslint bin/* lib/*"
