@@ -1,6 +1,6 @@
 {
   "name": "bench-warmer",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A nearly-complete test bench for the NodeJS HTTP interface",
   "main": "lib",
   "scripts": {
