@@ -41,6 +41,7 @@ jspm_packages
 .node_repl_history
 
 # Output of 'npm pack'
+*.tar.gz
 *.tgz
 
 # Yarn Integrity file
@@ -48,3 +49,16 @@ jspm_packages
 
 # OS Specific Files
 .DS_Store
+
+## Exclude docs and build configurations from package
+docs/
+npm-shrinkwrap.json
+
+Gemfile
+Gemfile.lock
+
+.eslintrc.json
+.istanbul.yml
+.jsdoc.json
+.ruby-version
+.travis.yml
