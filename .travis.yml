@@ -9,10 +9,10 @@ node_js:
 script:
   - npm run lint
 
-# deploy:
-#   provider: npm
-#   on:
-#     tags: true
-#   email: john.manero@gmail.com
-#   api_key:
-#     secure: c6UMQcpla0arUdNJSt8f7yYbdnHAJVjuoa/f9fxOFe/rsf79ds+/35WmgRN3HjDkl8p5YUY+Yv5zgU3FGzVsefTVjsOP9j4ea4lof1FtO8Y/k4X0hPMk4AtsieBqFIYTganwKEtex/iInhgppUH92qVTgOkw+hF2cyyx/kD0wkRtfBD18yz93VstUmvpmf8Q6gFmmY006qJOai0fmr50JYlqGnadShakleIgBjBSV3kQPxrW8UtsB22Pecf6d/WSJOfja2orKNQCjFBS7/Z72/8B3j3A1BE7aBKPatTiVPWgEZc5fzFBWzdtj96ViG2jtOSplcDrHtX0hm16FUDH712ZZpX/FdOzFV8S3+990bwfbS1B80Q52RDR9Tuo1GXgQtHy1bocqiamqmhBEetmEgxWf85PwSkgmSStnrCMpwmEyCbtToyYVG18c+85cDbD9XHv1fUheLxWPvAEXcXDgybsB/kwkKjkAnWrRPrlTZR+zNs0SUrdGEYIxRxX5zbeWCw4GjNiOj8R5GYyJmDMYDeQKjrtws4joJoHNZCAxU0B7NIjqDe7bbIRlf+5ppDyudGGM1/9xIpmjvP2TDBPxp70IeCRm3CZnTDhLn1fBSxgdbimruQzZZUD1O8Nsjyd0cWZAvPuhNvZ+gJ/n5lf+6XZUx4pcjIg+Nc5aK4wPCs=
+deploy:
+  provider: npm
+  on:
+    tags: true
+  email: john.manero@gmail.com
+  api_key:
+    secure: c6UMQcpla0arUdNJSt8f7yYbdnHAJVjuoa/f9fxOFe/rsf79ds+/35WmgRN3HjDkl8p5YUY+Yv5zgU3FGzVsefTVjsOP9j4ea4lof1FtO8Y/k4X0hPMk4AtsieBqFIYTganwKEtex/iInhgppUH92qVTgOkw+hF2cyyx/kD0wkRtfBD18yz93VstUmvpmf8Q6gFmmY006qJOai0fmr50JYlqGnadShakleIgBjBSV3kQPxrW8UtsB22Pecf6d/WSJOfja2orKNQCjFBS7/Z72/8B3j3A1BE7aBKPatTiVPWgEZc5fzFBWzdtj96ViG2jtOSplcDrHtX0hm16FUDH712ZZpX/FdOzFV8S3+990bwfbS1B80Q52RDR9Tuo1GXgQtHy1bocqiamqmhBEetmEgxWf85PwSkgmSStnrCMpwmEyCbtToyYVG18c+85cDbD9XHv1fUheLxWPvAEXcXDgybsB/kwkKjkAnWrRPrlTZR+zNs0SUrdGEYIxRxX5zbeWCw4GjNiOj8R5GYyJmDMYDeQKjrtws4joJoHNZCAxU0B7NIjqDe7bbIRlf+5ppDyudGGM1/9xIpmjvP2TDBPxp70IeCRm3CZnTDhLn1fBSxgdbimruQzZZUD1O8Nsjyd0cWZAvPuhNvZ+gJ/n5lf+6XZUx4pcjIg+Nc5aK4wPCs=
