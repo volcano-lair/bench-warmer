@@ -3,6 +3,10 @@ Bench Warmer
 
 _A nearly-complete test bench for the NodeJS HTTP interface._
 
+[![Build Status](https://travis-ci.org/volcano-lair/bench-warmer.svg?branch=master)](https://travis-ci.org/volcano-lair/bench-warmer)
+
+[NPM Package](https://www.npmjs.com/package/bench-warmer)
+
 **Rule The First of Unit Testing:** _Thou shalt not create any network sockets_
 
 **Rule The Second of Unit Testing:** _GOTO Rule The First of Unit Testing_
